@@ -143,9 +143,16 @@
       </tr>      
       <!-- BRI epay -->      
       <tr>
+        <td width="300" style="vertical-align: top;">Enable Indomaret Card?</td>
+        <td><input type="checkbox" name="ENABLED_INDOMARET" {if $enabled_indomaret}checked{/if} style="width: 300px;" /></td>
+      </tr>
+      <!-- Indomaret Card-->
+      <tr>
         <td width="300" style="vertical-align: top;">Kurs</td>
         <td><input type="text" name="VT_KURS" value="{$kurs}" style="width: 300px;" /></td>
       </tr>
+      
+      
       <!-- KURS -->
 
     </table>
